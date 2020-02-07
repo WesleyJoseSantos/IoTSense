@@ -1,0 +1,26 @@
+{
+    "settings":{
+        "name": "Iot Sense",
+        "localName": "Pardini Florêncio",
+        "provisioned": true
+    },
+    "services":{
+        "live":{
+            "enabled": true,
+            "interval": 1000
+        }
+    },
+    "wifiData":{
+        "ssid": "cabo canaveral",
+        "pass": "05151924"
+    },
+    "mqttData":{
+        "host":"192.168.0.104",
+        "port":1883,
+        "qos": 0,
+        "clientId" : "",
+        "senseToBrkTopic": "SenseToBroker/PardiniFlorencio/IotSense/",
+        "bkrToSenseTopic": "BrokerToSense/PardiniFlorencio/IotSense/#",
+        "cfgTopic": "BrokerToSense/PardiniFlorencio/IotSense/cfg"
+    }
+}
